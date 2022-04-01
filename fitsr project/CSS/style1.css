@@ -1,0 +1,116 @@
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+
+/*==============================================================*/
+
+body{
+    width: 100%;
+}
+
+.conteiner{
+    width: 1280px;
+    height: 700px;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 450px;
+    top: 100px;
+    box-shadow: 0px 8px 15px rgba(79, 81, 83, 0.2);
+}
+
+.form p{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 50px;
+    top: 50px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 130%;
+    color: #0177F9;
+    text-align: center;
+}
+
+.form__label1{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 50px;
+    top: 150px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000;
+    text-align: center;
+}
+
+.form__label1 input{
+    text-align: center;
+    border-bottom: 1px solid rgb(88, 88, 88);
+}
+
+.form__label2{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 50px;
+    top: 250px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000;
+    text-align: center;
+}
+
+.form__label2 input{
+    text-align: center;
+    border-bottom: 1px solid rgb(88, 88, 88);
+}
+
+.form__input input{
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 100px;
+    top: 330px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #0177F9;
+    text-align: center;
+    border: 2px solid #0177F9;
+    border-radius: 5px;
+    background: none;
+    cursor: pointer;
+}
+
+.form__input input:hover{
+    opacity: 0.5;
+}
