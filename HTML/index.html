@@ -4,28 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/style.css">
+    <!-- <link rel="stylesheet" href="../CSS/style.css"> -->
     <title>Document</title>
-    <link rel="stylesheet" href="Login in.html">
+    <!-- <link rel="stylesheet" href="Login in.html"> -->
 </head>
 <body>
     <div class="conteiner">
-        <div class="header">
-            <div class="header__logo"></div>
-            <div class="header__translation">
-                <label for="list">Language:</label>
-                    <select name="language" id="list">
-                        <option value="En">En</option>
-                        <option value="Ru">Ru</option>
-                    </select>
-            </div>
-            <div class="header__btn1">
-                <a target="_blank" href="Login in.html"> <p>Register</p> </a>
-            </div>
-            <div class="header__btn2">
-                <button>Login In</button>
-            </div>
-        </div>
+        <header class="main-header">
+           <nav class="main-header-nav">
+                <img src="../Img/logo.png" width="51px" height="51px" alt="medical logo">
+                <ul class="site-navigation">
+                    <li class="site-navigation-item"> Language:
+                        <select name="Language">
+                            <option value="En">English</option>
+                            <option value="Ru">Russian</option>
+                        </select>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="#">Register</a>
+                    </li>
+                    <li class="site-navigation-item">
+                        <a href="#">Login In</a>
+                    </li>
+                </ul>
+           </nav>
+        </header>
+        <main>
+            <section class="make-an-appointment">
+                <h2>Make an appointment with the doctor</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis duis at pellentesque purus dolor lectus nunc, mattis.</p>
+                <a href="#">Apply</a>
+                <img src="../Img/Doctor.jpg" width="660px" height="501px" alt="Doctor">
+                <table>
+                    <tr>
+                        <td>2000+</td>
+                        <td>100+</td>
+                        <td>20+</td>
+                    </tr>
+                    <tr>
+                        <td>Clients</td>
+                        <td>Doctors</td>
+                        <td>Specializations</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
         <div class="nav-box1">
             <div class="nav-box1__text">
                 <p>Make an appointment with the doctor</p>
